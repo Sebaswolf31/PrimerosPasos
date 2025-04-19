@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="rotate titulo">Juan Sebastian Cardona Cifuentes </h1>
+        <span>Mi Página Web </span>
+    </header>
+        <main>
+
+    <section class="ContenedorSobreMi">
+        <article>
+            <h2 class="sobreMi">SOBRE MI</h2>
+            <hr class="hrBlack" />
+            <p>Soy Sebastián Cardona, tengo 34 años soy originario de Chinchina, Caldas, Colombia. Desde mi infancia me gusto la tecnología y por eso decidí
+                estudiar informatica en la universidad de Manizales, en donde me gradue de Tecnólogo de sistemas. Actualmente, estoy en un full stack en la academia HENRY 
+                la cual deseo aprovechar y aprender todo lo posible para seguir avanzando y adquiriendo nuevos conocimientos.
+                En mi tiempo libre me gusta jugar videojuegos, futbol y conocer nuevos lugares. 
+                Creo firmemente en la importancia de la perseverncia y la curiosidad para seguir creciendo personal y profesionalmente. Hablando
+            </p>
+        </article>
+    </section>
+    <div class="division">
+    <section class="contenedorTecFavoritas">
+        <article>
+            <h2 class="sobreMi">MIS TECNOLOGÍAS FAVORITAS </h2>
+            <hr class="hrBlack">
+            <img src="./assets/img/tecnologias.png" alt="Logo html css java script" id="htmlCssJs">
+        </article>
+      </section>
+    <section class="contenedorActFavoritas">
+        <article>
+            <h2 class="sobreMi">MIS ACTIVIDADES FAVORITAS </h2>
+            <hr class="hrBlack">
+            <form class="formActFavoritas" id="activity-form">
+                <label>TITULO</label>
+                <input type="text" id="title" required>
+                <label>DESCRIPCION</label>
+                <textarea cols="30" rows="10" id="description" required></textarea>
+                <label> URL IMAGEN </label>
+                <input type="url" id="imgUrl" required>
+                <button type="button" id="add-activity-button"">Crear Actividad</button>
+            </form>
+           
+        </article>
+    </section>
+    </div>
+
+    <section class="contenedorTarjetas">
+        <h2>ACTIVIDADES</h2>
+    </section>
+    <div id="activity-container">
+
+    </div>
+</main>
+<footer>
+
+</footer>
+<script type="module" src="scripts/index.js"></script>
+</body>
+</html>

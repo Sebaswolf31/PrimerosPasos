@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body y estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #2f0202;
+    padding: 15px;
+}
+
+/* Estilos de Header */
+header {
+    background-color: #022448;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+header h1.titulo {
+    font-size: 5.5rem;
+    margin-bottom: 10px;
+}
+
+header span {
+    font-size: 3.2rem;
+    font-weight: 300;
+}
+
+/* Estilos de las secciones principales */
+section {
+    margin-bottom: 40px;
+}
+
+/* Títulos dentro de las secciones */
+h2.sobreMi {
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+/* Líneas divisorias */
+.hrBlack {
+    border: 1px solid #333;
+    margin-bottom: 15px;
+}
+
+/* Contenedor sobre mí */
+.ContenedorSobreMi article {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 28px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+/* Clase para la división con display flex */
+.division {
+    display: flex;
+    gap: 25px;
+}
+
+/* Estilos para el contenedor de tecnologías favoritas */
+.contenedorTecFavoritas {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 850px; 
+    text-align: center;
+    align-items: center;
+    
+
+    
+
+}
+
+   #htmlCssJs {
+    max-width: 90%; /* Ajusta el tamaño máximo de la imagen al 90% del contenedor */
+    max-height: 90%; /* Ajusta la altura máxima al 90% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+
+  }
+
+ 
+/* Estilos para el contenedor de actividades favoritas */
+.contenedorActFavoritas  {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+
+.formActFavoritas {
+   
+    display: flex;
+    flex-direction:column;
+    width: 80%;
+    border: 2px solid #161a30;
+    padding: 20px;
+    position: relative;
+    left: 90px;
+    border-radius: 20px;
+    margin: 40px 0 0 0; 
+
+}
+
+
+.formActFavoritas label {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #161a30;
+    margin-bottom: 10px;
+
+}
+
+.formActFavoritas input {
+    margin-bottom: 25px; 
+    font-size: 40px;
+}
+
+.formActFavoritas textarea {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+}
+
+button:hover {
+
+    font-weight: 500;
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+button {
+
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #b7eeaa;
+    margin-bottom: 30px;
+    background-color: rgb(14, 1, 49);
+    padding: 15px;
+    width: 200px;
+    position: relative;
+    left: 40%;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+
+}
+
+
+
+.tarjeta {
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 40px 10px 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contenedorTarjetas {
+    background-color: #00053b;
+    margin: 20px;
+    color: #fffefd;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 20px;
+    border-radius:30px;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.tarjeta {
+    padding: 16px;
+}
+
+.tarjeta h2 {
+    font-size:1.5em;
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    font-size:1em;
+    color: #b2b1b1;
+}
+/* Estilo para las tarjetas */
+.organizadorTarjetas  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 50px;
+    color: #777;
+}
+
+
+
+#activity-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas pasen a una nueva fila si es necesario */
+    gap: 40px;       /* Espaciado entre las tarjetas */
+    justify-content: center;
+}
+
+
+.activity-card {
+    width: 250px;        /* Ajusta el tamaño proporcional de las tarjetas */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+}
+
+.activity-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.activity-description {
+    font-size: 14px;
+    color: #555;
+}
+
+.activity-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.activity-delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block; /* para que el boton quede debajo de la imagen */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
+}
